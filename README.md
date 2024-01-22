@@ -10,14 +10,14 @@ email: xiaoyan.long@biologie.uni-freiburg.de
 We built an individual-based evolutionary simulation to study the coevolution of sex parental roles and sex ratios based on Long and Weissing (2023). The `c++` folder contains all C++ codes which are used for simulations. All simulation data are analyzed in R (version 4.3.1). The R-script for data analysis can be found in the `Long et al.R` folder. 
 
 
-The example runs in roughly 20 minutes (20 simulations in total) in High-performance computing (HPC) clusters. --time must be long enough for the simulations to finish. To be sure, oversubscribe your estimated runtime.
-
-
 ## Parameters
 
 Simulation parameters can be changed in `param.json` (in the folder of `c++`).
 
 We offered one example parameter setting where males have higher caring mortality than females (see Fig. 3 in the paper). You can use this code script to produce your own simulation data with the parameters you are interested in.
+
+
+The example runs in roughly 20 minutes (20 simulations in total) in High-performance computing (HPC) clusters. --time must be long enough for the simulations to finish. To be sure, oversubscribe your estimated runtime.
 
 ## Outputs
 
