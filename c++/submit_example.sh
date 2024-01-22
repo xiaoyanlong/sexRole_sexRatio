@@ -9,6 +9,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --partition=single
 
-datadir="/pfs/work7/workspace/scratch/fr_xl1011-data/evosexrole"
+datadir="/pfs/work7/workspace/scratch/fr_xl1011-data/evosexrole_sexratio"
 ./bin/evorole --force param=param.json rep=10 outdir=$example
 
