@@ -9,6 +9,8 @@ email: xiaoyan.long@biologie.uni-freiburg.de
 
 We built an individual-based evolutionary simulation to study the coevolution of sex parental roles and sex ratios based on Long and Weissing (2023). The `c++` folder contains all C++ codes which are used for simulations. All simulation data are analyzed in R (version 4.3.1). The R-script for data analysis can be found in the `Long et al.R` folder. 
 
+## Individual-based simulations 
+Please check https://github.com/xiaoyanlong/evo_sex_role for more details.
 
 ## Parameters
 
