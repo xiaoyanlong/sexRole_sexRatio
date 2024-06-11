@@ -10,5 +10,5 @@
 #SBATCH --partition=single
 
 datadir="/pfs/work7/workspace/scratch/fr_xl1011-data/evosexrole_sexratio"
-./bin/evorole --force param=mate0.002.json rep=5 outdir=$example
+./bin/evorole --force param=mate0.002.json rep=5 outdir=$datadir/2024-06-11_mate0.002
 
