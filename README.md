@@ -1,8 +1,22 @@
-# A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles
+# Simulation code and data for the manuscript "A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles"
 
-**Long et al.**
+## Abstract 
 
-email: xiaoyan.long@biologie.uni-freiburg.de
+The parental roles of males and females differ remarkably across the tree of life, and several studies suggest that parental sex roles are associated with biased sex ratios. However, there is considerable debate on the causal relationship between sex roles and sex ratios and on the relative importance of the operational sex ratio (OSR), the adult sex ratio (ASR), and the maturation sex ratio (MSR). Here we use individual-based evolutionary simulations to investigate the joint evolution of sex-specific parental behaviour and the various sex ratios in several life history scenarios. We show that typically, but not always, the sex with lower mortality or faster maturity tends to provide most of the care. The association of parental sex roles with the various sex ratios is more intricate. At equilibrium, the OSR is typically biased toward the less-caring sex, but the direction and strength of OSR biases may change considerably during evolution. When the MSR or ASR are biased, a broad spectrum of parental care patterns can evolve, although the overrepresented sex generally does most of the caring. We conclude that none of the sex ratios is a driver of parental sex roles; they rather co-evolve with care biases in a subtle manner.
+
+## Authors
+Xiaoyan Long, Tamas Székely, Jan Komdeur, Franz J. Weissing
+
+## Corresponding authors contact
+FJW: f.j.weissing@rug.nl 
+
+## Contact for questions about the simulation code
+
+XL: xiaoyan.long@biologie.uni-freiburg.de (temporary, postdoc email) or xiaoyan.long2@gmail.com (stable, private email) 
+
+## Citation
+
+Long, X., Székely, T., Komdeur, J., & Weissing, F. J. (2024). A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles. <em>American Naturalist.</em>
 
 ---
 
