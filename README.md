@@ -23,13 +23,15 @@ or xiaoyan.long2@gmail.com (stable, private email)
 
 ## Layout of the repository
 
-This repository contains the following folders:
+This repository contains the following important folders files:
 
 `c++`: This folder contains all the C++ code used for individual-based simulations in our study.
 
-`R script`: This folder includes the R scripts used for plotting the figures. All simulation data were analysed in R (4.3.1).
-
 `Simulation data`: This folder holds all the simulation data used to generate the figures in the manuscript.
+
+`Long et al. R`: This R script is used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
+
+`LICENSE`: This file contains the licensing information for the use and distribution of the repository's contents.
 
 
 ## How to run the individual-based simulations
