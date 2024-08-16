@@ -26,7 +26,7 @@ This repository contains the following key folders and files:
 
 - **`c++`**: This folder contains all the C++ code used for individual-based simulations in our study.
 - **`Simulation data`**: This folder holds all the simulation data used to generate the figures in the manuscript.
-- **`Long et al. R`**: This folder contains an R script used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
+- **`Long et al. R`**: This file contains an R script used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
 - **`LICENSE`**: This file contains the licensing information for the use and distribution of the repository's contents.
 
 ## How to Run the Individual-Based Simulations
