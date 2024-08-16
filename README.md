@@ -122,3 +122,61 @@ All code in this repository is available under a Creative Commons International 
 
 
 
+
+# Simulation Code and Data for "A Life-History Perspective on the Evolutionary Interplay of Sex Ratios and Parental Sex Roles"
+
+## General Information 
+
+**Authors**: Xiaoyan Long, Tamas Székely, Jan Komdeur, Franz J. Weissing
+
+**Corresponding author email**: f.j.weissing@rug.nl 
+
+**Contact for questions about the simulation code**: 
+- xiaoyan.long@biologie.uni-freiburg.de (temporary, postdoc email) 
+- xiaoyan.long2@gmail.com (stable, private email)
+
+**Citation**: Long, X., Székely, T., Komdeur, J., & Weissing, F. J. (2024). A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles. *American Naturalist.*
+
+**Abstract**: 
+The parental roles of males and females differ remarkably across the tree of life, and several studies suggest that parental sex roles are associated with biased sex ratios. However, there is considerable debate on the causal relationship between sex roles and sex ratios and on the relative importance of the operational sex ratio (OSR), the adult sex ratio (ASR), and the maturation sex ratio (MSR). Here we use individual-based evolutionary simulations to investigate the joint evolution of sex-specific parental behaviour and the various sex ratios in several life history scenarios. We show that typically, but not always, the sex with lower mortality or faster maturity tends to provide most of the care. The association of parental sex roles with the various sex ratios is more intricate. At equilibrium, the OSR is typically biased toward the less-caring sex, but the direction and strength of OSR biases may change considerably during evolution. When the MSR or ASR are biased, a broad spectrum of parental care patterns can evolve, although the overrepresented sex generally does most of the caring. We conclude that none of the sex ratios is a driver of parental sex roles; they rather co-evolve with care biases in a subtle manner.
+
+**Funding Sources**: 
+- FJW and XL were funded by the European Research Council (ERC Advanced Grant No. 789240).
+- TS was funded by The Royal Society (Wolfson Merit Award WM170050, APEX APX\R1\191045), the National Research, Development and Innovation Office of Hungary (ÉLVONAL KKP-126949), and by Hungarian Research Network (HUN-REN Debrecen University Reproductive Strategies Research Group, 1102207).
+- JK was funded by the Dutch Research Council (ALW-NWO Grant No. ALWOP.531) and also, together with FJW, was funded by the Dutch Research Council (NWO TOP Grant No. 854.11.003).
+
+## Layout of the Repository
+
+This repository contains the following key folders and files:
+
+- **`c++`**: This folder contains all the C++ code used for individual-based simulations in our study.
+- **`Simulation data`**: This folder holds all the simulation data used to generate the figures in the manuscript.
+- **`Long et al. R`**: This folder contains an R script used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
+- **`LICENSE`**: This file contains the licensing information for the use and distribution of the repository's contents.
+
+## How to Run the Individual-Based Simulations
+
+### Windows
+
+1. Download Visual Studio Community 2019.
+2. Open `evorole.sln` from the `c++` folder directly and run the simulations in Visual Studio 2019.
+
+It takes around 5 minutes to run 2 simulations (time steps = 5,000,000) on a "normal" laptop (RAM: 16 GB; CPU: 4 cores, 2.1 GHz/core).
+
+### Linux (Debian/apt-based)
+
+```bash
+sudo apt install cmake
+sudo apt install libtbb-dev
+git clone https://github.com/xiaoyanlong/sexRole_sexRatio.git
+cd ~/sexRole_sexRatio/c++
+mkdir build & cd build
+make ..
+make install
+cd ~/sexRole_sexRatio/c++/bin
+./c++ --help
+./c++ param=../param.json outdir='your output directory'
+
+
+
+
