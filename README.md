@@ -118,7 +118,7 @@ If you have any questions about the code or need any help when running the code,
 
 ## License Information
 
-All code in this repository is licensed under the MIT License. Authors who wish to modify or distribute this code should include the original license text and attribution to the original authors.
+All code in this repository is licensed under the Creative Commons Attribution 4.0 International License. Authors who wish to modify this code for their own purposes should cite the version of this work archived in Zenodo.
 
 ## Version Information
 
