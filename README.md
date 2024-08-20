@@ -38,8 +38,7 @@ Before running the simulations, ensure that the following dependencies are insta
 - **CMake**: Required for building the C++ code.
 - **Intel Threading Building Blocks (TBB)**: Install using `libtbb-dev` on Linux.
 - **R version 4.3.1 or higher**: Required for running the R scripts. Ensure that all necessary R packages are installed:
-  `ggplot2`,`dplyr`,`shape`,`stringr`,`gtools`,`tidyr`,`grid`,`scatterpie`,`here`,`rlang`,`gridExtra`
-  
+  `ggplot2`,`dplyr`,`shape`,`stringr`,`gtools`,`tidyr`,`grid`,`scatterpie`,`here`,`rlang`,`gridExtra`  
 
 ## How to Run the Individual-Based Simulations
 
@@ -119,7 +118,7 @@ If you have any questions about the code or need any help when running the code,
 
 ## License Information
 
-All code in this repository is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Authors who modify this code for their own purposes should cite the version of this work archived in Zenodo.
+All code in this repository is licensed under the MIT License. Authors who wish to modify or distribute this code should include the original license text and attribution to the original authors.
 
 ## Version Information
 
