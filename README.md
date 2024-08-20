@@ -10,7 +10,7 @@
 - xiaoyan.long@biologie.uni-freiburg.de (temporary, postdoc email) 
 - xiaoyan.long2@gmail.com (stable, private email)
 
-**Citation**: Long, X., Székely, T., Komdeur, J., & Weissing, F. J. (2024). A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles. *American Naturalist.*
+**Citation**: Long, X., Székely, T., Komdeur, J., & Weissing, F. J. (2024). Simulation code and data for: A life-history perspective on the evolutionary interplay of sex ratios and parental sex roles. *American Naturalist, Zenodo,* https://doi.org/10.5281/zenodo.13348527.
 
 **Abstract**: 
 The parental roles of males and females differ remarkably across the tree of life, and several studies suggest that parental sex roles are associated with biased sex ratios. However, there is considerable debate on the causal relationship between sex roles and sex ratios and on the relative importance of the operational sex ratio (OSR), the adult sex ratio (ASR), and the maturation sex ratio (MSR). Here we use individual-based evolutionary simulations to investigate the joint evolution of sex-specific parental behaviour and the various sex ratios in several life history scenarios. We show that typically, but not always, the sex with lower mortality or faster maturity tends to provide most of the care. The association of parental sex roles with the various sex ratios is more intricate. At equilibrium, the OSR is typically biased toward the less-caring sex, but the direction and strength of OSR biases may change considerably during evolution. When the MSR or ASR are biased, a broad spectrum of parental care patterns can evolve, although the overrepresented sex generally does most of the caring. We conclude that none of the sex ratios is a driver of parental sex roles; they rather co-evolve with care biases in a subtle manner.
@@ -25,8 +25,8 @@ The parental roles of males and females differ remarkably across the tree of lif
 This repository contains the following key folders and files:
 
 - **`c++`**: This folder contains all the C++ code used for individual-based simulations in our study.
-- **`data`**: This folder holds all the simulation data used to generate the figures in the manuscript.
 - **`Long et al. R`**: This file contains an R script used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
+  All the simulation data used to generate the figures in the manuscript are available at https://doi.org/10.5281/zenodo.13348527.
 - **`LICENSE`**: This file contains the licensing information for the use and distribution of the repository's contents.
 - **`README.md`**: This README file provides an overview of the repository and instructions for use.
 
@@ -122,7 +122,7 @@ All code in this repository is licensed under the Creative Commons Attribution 4
 
 ## Version Information
 
-- Simulation code version: 1.0
+- Simulation code version: 3.0
 - Last updated: 19/08/2024
 
 ## References
