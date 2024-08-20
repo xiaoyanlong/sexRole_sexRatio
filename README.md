@@ -25,9 +25,21 @@ The parental roles of males and females differ remarkably across the tree of lif
 This repository contains the following key folders and files:
 
 - **`c++`**: This folder contains all the C++ code used for individual-based simulations in our study.
-- **`Simulation data`**: This folder holds all the simulation data used to generate the figures in the manuscript.
+- **`data`**: This folder holds all the simulation data used to generate the figures in the manuscript.
 - **`Long et al. R`**: This file contains an R script used for analyzing the simulation data, primarily for plotting figures. All simulation data were analyzed using R version 4.3.1.
 - **`LICENSE`**: This file contains the licensing information for the use and distribution of the repository's contents.
+- **`README.md`**: This README file provides an overview of the repository and instructions for use.
+
+## Dependencies and Prerequisites
+
+Before running the simulations, ensure that the following dependencies are installed:
+
+- **C++ Compiler**: Compatible with C++11 or higher.
+- **CMake**: Required for building the C++ code.
+- **Intel Threading Building Blocks (TBB)**: Install using `libtbb-dev` on Linux.
+- **R version 4.3.1 or higher**: Required for running the R scripts. Ensure that all necessary R packages are installed:
+  `ggplot2`,`dplyr`,`shape`,`stringr`,`gtools`,`tidyr`,`grid`,`scatterpie`,`here`,`rlang`,`gridExtra`
+  
 
 ## How to Run the Individual-Based Simulations
 
@@ -92,7 +104,7 @@ After running the simulations, a folder named `data` will be created, containing
    - `malepc1`: female care, which is not expressed in the male parent
    - `malepc2`: male care, which is expressed in the male parent
    - `femalep1`: mating preference of the female parent, and this is only expressed in females (always zero in our current study)
-   - `female`: ornaments of the female parent, but this is only expressed in males (always zero in our current study)
+   - `femalet`: ornaments of the female parent, but this is only expressed in males (always zero in our current study)
    - `femalepc1`: female care, which is only expressed in the female parent
    - `femalepc2`: male care, which is not expressed in the female parent
    - `offp1`: mating preference of the offspring, and this is expressed if the offspring is a female (always zero in our current study)
@@ -108,6 +120,17 @@ If you have any questions about the code or need any help when running the code,
 ## License Information
 
 All code in this repository is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Authors who modify this code for their own purposes should cite the version of this work archived in Zenodo.
+
+## Version Information
+
+- Simulation code version: 1.0
+- Last updated: 19/08/2024
+
+## References
+
+- Long, X., & Weissing, F. J. (2023). Transient polymorphisms in parental care strategies drive divergence of sex roles. Nature Communications, 14(1), 6805.
+
+
 
 
 
